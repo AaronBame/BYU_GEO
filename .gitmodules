@@ -4,3 +4,6 @@
 [submodule "pyusbiss"]
 	path = pyusbiss
 	url = https://github.com/DancingQuanta/pyusbiss.git
+[submodule "matplotlib"]
+	path = matplotlib
+	url = https://github.com/matplotlib/matplotlib.git
