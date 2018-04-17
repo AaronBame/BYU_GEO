@@ -3,6 +3,7 @@
 #Updated to store CO2 data to file 3/6/2018 Aaron Bame
 
 #Importing necessary packages 
+#from quick2wire import quick2wire
 import quick2wire.i2c as i2c
 import re
 import time
@@ -90,7 +91,7 @@ with i2c.I2CMaster(i2c_bus) as bus:
         # NEW - Add to same file
         day = datetime.datetime.now()
         elapsed = (day-t0).total_seconds()
-        filename="/home/pi/Documents/GEO Code/COData/"+'All Data: CO'
+        filename="/home/pi/BYU_GEO/GEO Code/COData/"+'All Data: CO'
         try:
             with open(filename,'a',newline='') as fp:
                 a = csv.writer(fp, delimiter=',')

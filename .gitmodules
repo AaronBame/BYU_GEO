@@ -7,3 +7,6 @@
 [submodule "matplotlib"]
 	path = matplotlib
 	url = https://github.com/matplotlib/matplotlib.git
+[submodule "GEO Code/quick2wire"]
+	path = GEO Code/quick2wire
+	url = https://github.com/quick2wire/quick2wire-python-api.git
