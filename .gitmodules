@@ -10,3 +10,6 @@
 [submodule "GEO Code/quick2wire"]
 	path = GEO Code/quick2wire
 	url = https://github.com/quick2wire/quick2wire-python-api.git
+[submodule "GEO Code/Adafruit_Python_ADS1x15"]
+	path = GEO Code/Adafruit_Python_ADS1x15
+	url = https://github.com/adafruit/Adafruit_Python_ADS1x15.git
