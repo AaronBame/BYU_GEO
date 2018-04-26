@@ -117,4 +117,4 @@ with i2c.I2CMaster(i2c_bus) as bus:
         plt.show(block=False)
         
         # Only collect data after certain intervals of time
-        time.sleep(2)
+        time.sleep(5)

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 #Script to collect data for BYU GEO sensor team
 
 #Importing necessary packages 
@@ -102,7 +104,7 @@ with i2c.I2CMaster(i2c_bus) as bus:
         # Add to same file
         day = datetime.datetime.now()
         elapsed = (day-t0).total_seconds()
-        filename="/home/pi/Documents/GEO Code/COData/"+'All Data: CO'
+        filename="/home/pi/BYU_GEO/GEO Code/COData/"+'All Data: CO'
         try:
             with open(filename,'a',newline='') as fp:
                 a = csv.writer(fp, delimiter=',')
